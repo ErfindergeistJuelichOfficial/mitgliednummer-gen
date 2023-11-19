@@ -1,0 +1,16 @@
+{
+  "name": "mitgliednummer-gen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "mitgliednummerGen.js",
+  "scripts": {
+    "gen": "npx tsc && node ./build/nodeConsole.js $vorname $nachname"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.9.2",
+    "typescript": "^5.2.2"
+  }
+}
